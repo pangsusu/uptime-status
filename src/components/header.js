@@ -8,7 +8,7 @@ function Header() {
   }, []);
 
   return (
-    <div id='header'>
+    <div id='header' style="display:none">
       <div className='container'>
         <h1 className='logo'>{window.Config.SiteName}</h1>
         <div className='navi'>
